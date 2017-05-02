@@ -1,0 +1,22 @@
+git branch shows the name of the current branch you are in.
+
+git branch name creates a new branch and move into that new branch.
+
+git log --graph --oneline 
+
+head means current commit.
+
+If you want to create a new branch to retain commits you create, you may do so (now or later) by using -b with the checkout command again. Example: git checkout -b new_branch_name. The command is equivalent to two commands: git branch new_branch_name; git checkout new_branch_name
+
+git merge master coins
+git merge will include the branch that you check out in the current. When you checkout branch1, and run the git merge branch2 branch3, then the new version will include all the branch1, branch2, branch3. Thus, you should always check out only one of the branch you want to merge. Which one to choose depends on to which branch you want to commit the new version.
+
+Due to the branch you check out is always in the merge, you don't need to write both branches in the merge command.
+git checkout branch1 + git merge branch 2 is enough
+
+git show commitID shows the differences between the named commit and its parent.
+
+git branch -d branchname deletes the label of the named branch, but don't delete the commits in the branch.
+
+
+

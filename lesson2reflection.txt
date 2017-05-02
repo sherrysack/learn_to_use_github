@@ -1,0 +1,7 @@
+git diff can be used directly to show the differences between all files in the working directory and the staging area.
+git diff --staged can be used to show the diffferences between the files in the staging area and the repository.
+git add ... is used to add the named file in the working directory to the staging area.
+git commit is used to commit the file in the staging area to the repository.
+git reset --hard would discard any changes you made in the working directory and staging area.(discretion)
+
+ 

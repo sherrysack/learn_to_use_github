@@ -1,0 +1,3 @@
+git log --stat
+git checkout ...
+git diff commit1 commit2

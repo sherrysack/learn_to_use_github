@@ -1,0 +1,2 @@
+git remote will list
+git remote add origin
